@@ -1,12 +1,31 @@
+:root{
+    --twcolor1:#076ABD;
+    --twcolor2:#D9EBFF;
+    --ptcolor1:#026701;
+    --ptcolor2:#D5E6C2;
+}
 h2{
     font-family: 'Yatra One', cursive;
 }
 
+.road{
+    font-size: 70px;
+}
+
 .hero{
     text-align: center;
-    background-color: #D5E6C2;
+    background-color:var(--twcolor2);
 }
 
 img{
     border-radius: 50%;
+    border: solid 3px;
+}
+
+.twflag{
+    border-color: var(--twcolor1);
+}
+
+.ptflag{
+    border-color: var(--ptcolor1);
 }
