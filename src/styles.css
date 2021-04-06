@@ -8,10 +8,6 @@ h2{
     font-family: 'Yatra One', cursive;
 }
 
-.road{
-    font-size: 70px;
-}
-
 .hero{
     text-align: center;
     background-color:var(--twcolor2);
