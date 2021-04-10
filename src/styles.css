@@ -3,7 +3,14 @@
     --twcolor2:#D9EBFF;
     --ptcolor1:#026701;
     --ptcolor2:#D5E6C2;
+    --ptcolor3:#DE2A2A;
+    --ptcolor4:#D67B7B;
 }
+
+h1{
+    text-align: center;
+}
+
 h2{
     font-family: 'Yatra One', cursive;
 }
@@ -16,6 +23,8 @@ h2{
 img{
     border-radius: 50%;
     border: solid 3px;
+    display: block;
+    margin: auto;
 }
 
 .twflag{
@@ -25,3 +34,21 @@ img{
 .ptflag{
     border-color: var(--ptcolor1);
 }
+
+.left{
+    background-color: var(--ptcolor2);
+}
+
+.content-right{
+    color: var(--ptcolor1);
+}
+
+.right{
+    background-color: var(--ptcolor4);
+}
+
+.content-left{
+    color: var(--ptcolor3);
+}
+
+
