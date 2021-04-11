@@ -51,4 +51,8 @@ img{
     color: var(--ptcolor3);
 }
 
+.mainText{
+    padding: 0px 50px;
+    margin: 10px 80px;
+}
 
