@@ -59,6 +59,11 @@ img{
     margin: 10px 80px;
 }
 
+.box{
+    display: none;
+}
+
 .publication{
     text-decoration: none;
+    border: none;
 }

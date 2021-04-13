@@ -18,7 +18,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://kit.fontawesome.com/120f2cf90a.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="src/message.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>🙋🏻‍♀️Works💼</title>
 </head>
 <body>
@@ -39,9 +39,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html"
-              >Home</a
-            >
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="work.html">
@@ -116,10 +114,10 @@
           <ul class="list-group">
             <li class="list-group-item">Certificate of Medical Technician</li>
             <li class="list-group-item">Technician Certificate of class C skill category in Food Baking- Bread, Republic of China (R.O.C.)</li>
-            <a class="list-group-item list-group-item-action" onclick="myFunction()">Publication as the 1st author</a>
+            <a class="list-group-item list-group-item-action" href="https://www.sciencedirect.com/science/article/abs/pii/S1756464615005526" target="_blank">Publication as the 1st author</a>
           </ul>
-          <div id="myDIV">
-            <a href="https://www.sciencedirect.com/science/article/abs/pii/S1756464615005526" target="_blank" class="publication">📑</a>
+          <button class="publication toggle-btn">📑</button>
+          <div class="box">
             <img
              height="400"
              width="400"
@@ -156,13 +154,11 @@
           </div>
 </body>
 </html>
-<script>
-  function myFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+      $(".toggle-btn").click(function(){
+          $(".box").toggle();
+      });
+  });
+</script>   
