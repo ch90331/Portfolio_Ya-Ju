@@ -67,3 +67,7 @@ img{
     text-decoration: none;
     border: none;
 }
+
+.hideAndShow{
+    display: none;
+}

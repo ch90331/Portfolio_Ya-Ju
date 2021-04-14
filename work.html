@@ -114,18 +114,19 @@
           <ul class="list-group">
             <li class="list-group-item">Certificate of Medical Technician</li>
             <li class="list-group-item">Technician Certificate of class C skill category in Food Baking- Bread, Republic of China (R.O.C.)</li>
-            <a class="list-group-item list-group-item-action" href="https://www.sciencedirect.com/science/article/abs/pii/S1756464615005526" target="_blank">Publication as the 1st author</a>
+            <a class="list-group-item list-group-item-action" href="javascript:void(0)" onclick="myFunction()">Publication as the 1st author</a> 
           </ul>
-          <button class="publication toggle-btn">📑</button>
-          <div class="box">
-            <img
-             height="400"
-             width="400"
-             src="src/images/publication.JPG"
-             class="img-fluid rounded shadow-sm border"
-             alt=""
-             />
-            </div>
+            <div class="hideAndShow" id="myDIV">
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S1756464615005526" target="_blank" class="publication">📑</a>
+             <img
+               height="400"
+               width="400"
+               src="src/images/publication.JPG"
+               class="img-fluid rounded shadow-sm border"
+               alt=""
+             />    
+            </div>                                            
+            
         </div>
       </div>
     </div>
@@ -155,10 +156,13 @@
 </body>
 </html>
 
-<script type="text/javascript">
-  $(document).ready(function(){
-      $(".toggle-btn").click(function(){
-          $(".box").toggle();
-      });
-  });
-</script>   
+<script>
+  function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>                  
