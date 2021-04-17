@@ -71,3 +71,8 @@ img{
 .hideAndShow{
     display: none;
 }
+
+.image{
+    padding: 15px 30px;
+    border-radius: 5px;
+}
