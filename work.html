@@ -114,9 +114,9 @@
           <ul class="list-group">
             <li class="list-group-item">Certificate of Medical Technician</li>
             <li class="list-group-item">Technician Certificate of class C skill category in Food Baking- Bread, Republic of China (R.O.C.)</li>
-            <a class="list-group-item list-group-item-action" href="javascript:void(0)" onclick="myFunction()">Publication as the 1st author</a> 
+            <a class="list-group-item list-group-item-action" href="javascript:void(0)" onclick="myFunction1()">Publication as the 1st author</a> 
           </ul>
-            <div class="hideAndShow" id="myDIV">
+            <div class="hideAndShow" id="myDIV1">
             <a href="https://www.sciencedirect.com/science/article/abs/pii/S1756464615005526" target="_blank" class="publication">📑</a>
              <img
                height="400"
@@ -138,8 +138,48 @@
                   <ul class="list-group">
                     <li class="list-group-item">Experiences in the exportation of alimentary products to various Asian markets</li>
                     <li class="list-group-item">Coordination of the affairs concerning logistics and goods delivery (international trade)</li>
-                    <li class="list-group-item">Organization and attendance of international fairs</li>
+                    <a class="list-group-item list-group-item-action" href="javascript:void(0)" onclick="myFunction2()">Organization and attendance of international fairs</a>
                   </ul>
+              <div class="hideAndShow" id="myDIV2">
+                <div class="row">
+                  <div class="col-6">
+                  <img
+                   height="400"
+                   width="400"
+                   src="src/images/SIAL_China.JPG"
+                   class="img-fluid rounded shadow-sm border"
+                   alt=""
+                  />
+                  </div>
+                  <div class="col-6">
+                    <img
+                     height="400"
+                     width="400"
+                     src="src/images/SIAL_Paris.JPG"
+                     class="img-fluid rounded shadow-sm border"
+                     alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <img
+                     height="400"
+                     width="400"
+                     src="src/images/anuga1.JPG"
+                     class="img-fluid rounded shadow-sm border"
+                     alt=""
+                    />
+                </div>
+                <div class="col-12">
+                  <img
+                     height="400"
+                     width="400"
+                     src="src/images/FHC China.JPG"
+                     class="img-fluid rounded shadow-sm border"
+                     alt=""
+                    />
+                </div>        
+              </div>                        
               </div>
               <div class="col-6 image right py-3 mb-2">
                 <p class="text-center">
@@ -157,8 +197,16 @@
 </html>
 
 <script>
-  function myFunction() {
-  var x = document.getElementById("myDIV");
+  function myFunction1() {
+  var x = document.getElementById("myDIV1");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+  function myFunction2() {
+  var x = document.getElementById("myDIV2");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {

@@ -68,11 +68,27 @@ img{
     border: none;
 }
 
-.hideAndShow{
+.hideAndShow {
     display: none;
 }
 
 .image{
     padding: 15px 30px;
     border-radius: 5px;
+}
+
+.mainButton{
+    color: white;
+    background-color: var(--twcolor1);
+}
+
+.contactMebutton{
+    border-radius: 5px;
+    background-color: var(--twcolor1);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 15px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
