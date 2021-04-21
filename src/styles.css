@@ -25,6 +25,10 @@ img{
     border: solid 3px;
 }
 
+.country{
+    border: none;
+}
+
 .emoji{
     display: block;
     margin: auto;
@@ -97,3 +101,21 @@ img{
 .contactMe{
    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
+
+.card {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+}
+.card .img-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+}
+.card:hover .img-hover {
+    display: inline;
+}
+
