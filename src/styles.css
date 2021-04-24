@@ -104,18 +104,38 @@ img{
 
 .card {
     position: relative;
-    display: inline-block;
-    padding: 0;
+    display: table-cell;
+    background: none;
+    border: none;
+    vertical-align: middle;
+    text-align: center;
 }
 .card .img-hover {
     display: none;
-    position: absolute;
     top: 0;
     left: 0;
     z-index: 99;
     width: 100%;
 }
+
 .card:hover .img-hover {
     display: inline;
 }
 
+.card:hover .img-still {
+    display: none;
+}
+
+.food{
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: none;
+    box-shadow: 5px 3px 2px var(--twcolor2);
+}
+
+.foodie{
+    text-align: center;
+    color: var(--twcolor1);
+    margin: 3px 0px;
+}
