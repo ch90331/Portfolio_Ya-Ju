@@ -7,6 +7,11 @@
     --ptcolor4:#D67B7B;
 }
 
+.brand{
+    font-family: 'Original Surfer', cursive;
+    font-size: 25px;
+}
+
 h1{
     text-align: center;
 }
@@ -32,26 +37,43 @@ ul.contact{
     background-color:var(--twcolor2);
 }
 
-img{
-    border-radius: 50%;
-    border: solid 3px;
-}
-
 .country{
     border: none;
 }
 
 .emoji{
+    border-radius: 50%;
+    border: solid 3px;
     display: block;
-    margin: auto;
+    margin: 0 auto;
+}
+
+.emoji-1{
+    text-align: center;
+    font-size:23px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: solid 3px;
+    display: block;
+    margin: 0 auto;
 }
 
 .twflag{
-    border-color: var(--twcolor1);
+    border-radius: 50%;
+    border: solid 3px var(--twcolor1);
 }
 
 .ptflag{
-    border-color: var(--ptcolor1);
+    border-radius: 50%;
+    border: solid 3px var(--ptcolor1);
+}
+
+.emoji-yaju{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
 }
 
 .left{
