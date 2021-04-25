@@ -12,7 +12,19 @@ h1{
 }
 
 h2{
-    font-family: 'Yatra One', cursive;
+    font-family: 'Comfortaa', cursive;
+}
+
+.contactMeTitle{
+    color: var(--twcolor2);
+    text-align: center;
+}
+
+ul.contact{
+    list-style-type: none;
+    display: table;
+    margin: 0 auto;
+    color: var(--twcolor1);
 }
 
 .hero{
