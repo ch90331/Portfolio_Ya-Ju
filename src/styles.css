@@ -5,6 +5,11 @@
     --ptcolor2:#D5E6C2;
     --ptcolor3:#DE2A2A;
     --ptcolor4:#D67B7B;
+    --ptcolor5:#FBE9E9;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
 }
 
 .brand{
@@ -16,7 +21,7 @@ h1{
     text-align: center;
 }
 
-h2{
+h1, h2{
     font-family: 'Comfortaa', cursive;
 }
 
@@ -92,6 +97,14 @@ ul.contact{
     color: var(--ptcolor3);
 }
 
+.remark-1{
+    color: var(--ptcolor1);
+}
+
+.remark-2{
+    color: var(--ptcolor5);
+}
+
 .mainText{
     padding: 0px 50px;
     margin: 10px 80px;
@@ -130,6 +143,14 @@ ul.contact{
     padding: 10px 15px;
     border:none;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contactMebutton:hover{
+    color:var(--ptcolor2);
+}
+
+.mainButton:hover{
+    color:var(--ptcolor2);
 }
 
 .contactMe{
