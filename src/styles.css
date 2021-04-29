@@ -53,17 +53,6 @@ ul.contact{
     margin: 0 auto;
 }
 
-.emoji-1{
-    text-align: center;
-    font-size:23px;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    border: solid 3px;
-    display: block;
-    margin: 0 auto;
-}
-
 .twflag{
     border-radius: 50%;
     border: solid 3px var(--twcolor1);
