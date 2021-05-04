@@ -142,8 +142,24 @@ ul.contact{
     color:var(--ptcolor2);
 }
 
-.contactMe{
+footer, .contactMe{
    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+footer .social-links a{
+    font-size: 40px;
+    color: var(--twcolor1);
+    background-color: var(--twcolor2);
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 20px 40px;
+    padding: 10px 22px;
+    transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover{
+    color: var(--twcolor2);
+    background-color: var(--twcolor1);
 }
 
 .card {
@@ -160,6 +176,7 @@ ul.contact{
     left: 0;
     z-index: 99;
     width: 100%;
+    transition: all 150ms ease-in-out;
 }
 
 .card:hover .img-hover {
@@ -183,3 +200,13 @@ ul.contact{
     color: var(--twcolor1);
     margin: 3px 0px;
 }
+
+@media (max-width: 576px){
+    .image{
+      display: none;
+    }
+    .appContent{
+      text-align: center;
+      width: 100%;
+    }
+  }
