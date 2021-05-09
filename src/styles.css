@@ -25,9 +25,23 @@ h1, h2{
     font-family: 'Comfortaa', cursive;
 }
 
+h4 {
+    margin: 50px;
+    text-decoration:underline;
+    color: var(--twcolor1);
+}
+
 .contactMeTitle{
     color: var(--twcolor2);
     text-align: center;
+}
+
+h4.e-mail{
+   text-decoration: none;
+}
+
+h4.e-mail:hover{
+    color: var(--twcolor2);
 }
 
 ul.contact{
@@ -135,11 +149,14 @@ ul.contact{
 }
 
 .contactMebutton:hover{
-    color:var(--ptcolor2);
+    color: var(--twcolor1);
+    background-color: var(--twcolor2);
 }
 
 .mainButton:hover{
-    color:var(--ptcolor2);
+    color: var(--twcolor1);
+    font-weight: bold;
+    background-color: var(--twcolor2);
 }
 
 footer, .contactMe{
@@ -160,6 +177,11 @@ footer .social-links a{
 footer .social-links a:hover{
     color: var(--twcolor2);
     background-color: var(--twcolor1);
+}
+
+.code-message{
+    text-decoration: none;
+    color: grey;
 }
 
 .card {
